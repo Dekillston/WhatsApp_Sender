@@ -1,0 +1,139 @@
+.WhatsApp_Sender *{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.WhatsApp_Sender *,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.WhatsApp_Sender :focus,:active{outline: none;}
+.WhatsApp_Sender a:focus,a:active{outline: none;}
+.WhatsApp_Sender nav,footer,header,aside{display: block;}
+.WhatsApp_Sender html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+.WhatsApp_Sender input,button,textarea{font-family:inherit;}
+.WhatsApp_Sender input::-ms-clear{display: none;}
+.WhatsApp_Sender button{cursor: pointer;}
+.WhatsApp_Sender button::-moz-focus-inner {padding:0;border:0;}
+.WhatsApp_Sender a, a:visited{text-decoration: none;}
+.WhatsApp_Sender a:hover{text-decoration: none;}
+.WhatsApp_Sender ul li{list-style: none;}
+.WhatsApp_Sender img{vertical-align: top;}
+.WhatsApp_Sender h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}	
+/*  */
+.WhatsApp_Sender .center .sent {
+	font-size: 50px;
+	color: #00bf00;
+}
+.WhatsApp_Sender .center .not_found {
+	font-size: 50px;
+	color: red;
+}
+.WhatsApp_Sender .center .seconds {
+	font-size: 50px;
+	color: #00a2ff;
+}
+.WhatsApp_Sender .center .cancellation {
+	border: 3px solid rgb(255, 0, 0, 70%);
+	color: rgb(255, 0, 0, 70%);
+	background-color: #fff;
+}
+.WhatsApp_Sender .center .cancellation:hover {
+	color: #fff;
+	background-color: rgb(255, 0, 0, 70%);
+}
+.WhatsApp_Sender .arror_cender {
+	color: red;
+	height: 20px;
+	font-size: 20px;
+}
+.WhatsApp_Sender {
+	z-index: 200;
+	position: absolute;
+	top: 0px;
+	width: 99%;
+	height: 99%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(0, 0, 0, 50%);
+}
+.WhatsApp_Sender .center {
+	position: relative;
+	width: 400px;
+	font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+	font-size: 27px;
+	color: rgb(0, 0, 0, 50%);
+	background-color: #fff;
+	border-radius: 25px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.WhatsApp_Sender .center .close {
+	position: absolute;
+	height: 45px;
+	line-height: 45px;
+	color: rgb(0, 0, 0, 50%);
+	top: 0px;
+	right: 0%;
+	font-size: 70px;
+	cursor: pointer;
+}
+.WhatsApp_Sender .center p {
+	margin: 10px 0px 10px 0px;
+}
+.WhatsApp_Sender .center textarea {
+	transition: 0.3s;
+	border-radius: 10px;
+	font-size: 20px;
+	resize: none;
+	width: 100%;
+	height: 100px;
+	border: 5px solid rgb(0, 0, 0, 50%);
+}
+.WhatsApp_Sender .center textarea:focus { 
+	border-color: #33B838; 
+}
+.WhatsApp_Sender .center button {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	font-size: 27px;
+	border-radius: 50px;
+	padding: 5px 20px 5px 20px;
+	margin-top: 20px;
+	border: 3px solid #35B710;
+	color: #35B710;
+	background-color: #fff;
+	transition: 0.3s;
+}
+.WhatsApp_Sender .center button:hover {
+	color: #FFF;
+	background-color: #35B710;
+	padding: 5px 50px 5px 50px;
+}
+.WhatsApp_Sender .center button img {
+	height: 100%;
+	margin-right: 10px;
+}
+.WhatsApp_Sender .center .csv {
+	color: #ffa500;
+	background-color: #fff;
+	border: 3px solid #ffa500;
+}
+.WhatsApp_Sender .center .csv:hover {
+	color: #ff;
+	background-color: #ffa500;
+}
